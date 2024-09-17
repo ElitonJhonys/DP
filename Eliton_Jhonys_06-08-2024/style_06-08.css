@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background-color: blueviolet;
+    border: 10px solid gray;
+}
+
+.textlogin {
+    color: orange;
+    display: flex;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.usuario {
+    padding: 10px;
+    color: white;
+}
+
+.senha {
+    padding: 10px;
+    color: white;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: red;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+input {
+    border: nome;
+    border-bottom: 5px solid red;
+}
