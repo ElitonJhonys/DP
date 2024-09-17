@@ -39,8 +39,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 30rem;
-/*  width: 28rem;   */
+    width: 28rem;   
     padding: 1.2rem;
     border-radius: 1rem;
     background-color: var(--black);
@@ -69,7 +68,7 @@ body {
 }
 
 .info-perfil p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -116,13 +115,19 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    font-size: 1.7rem;
 }
 
 .widget3 .icons2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--primary-color);
-    padding: 1.9rem;
-/*  padding: 1.8rem;   */
+    padding: 1rem;   
     border-radius: 0.6rem;
+    width: 4.2rem;
+    height: 4rem;
+    text-decoration: none;
 }
 
 i{
@@ -138,18 +143,20 @@ i{
     background-color: var(--white);
     display: flex;
     align-items: center;
-    padding: 0.5rem;
+    padding: 1rem;
     gap: 1rem;
     border-radius: 10px;
     text-decoration: none;
     color: var(--black);
+    height: 5.5rem;
+    font-weight: 500;
 }
 
 .img-4 {
     background-image: url(../img/meusiteimg.png);
 /*    background-image: url("https://brasilamazoniaagora.com.br/wp-content/uploads/2022/06/macaco-misterioso-malasia-hibrido-conexao-planeta.jpeg");*/
-    width: 3rem;
-    height: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
     background-size: cover;
     background-repeat: no-repeat;
 }
