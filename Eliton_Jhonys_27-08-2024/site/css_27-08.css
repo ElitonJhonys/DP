@@ -152,13 +152,19 @@ i{
     font-weight: 500;
 }
 
-.img-4 {
-    background-image: url(../img/meusiteimg.png);
-/*    background-image: url("https://brasilamazoniaagora.com.br/wp-content/uploads/2022/06/macaco-misterioso-malasia-hibrido-conexao-planeta.jpeg");*/
+.img-4 i {
+    background-color: black;
+/*    background-image: url(../img/meusiteimg.png);
+    background-image: url("https://brasilamazoniaagora.com.br/wp-content/uploads/2022/06/macaco-misterioso-malasia-hibrido-conexao-planeta.jpeg");*/
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 3.5rem;
     height: 3.5rem;
-    background-size: cover;
-    background-repeat: no-repeat;
+/*    background-size: cover;
+    background-repeat: no-repeat; */
+    font-size: 3.13rem;
 }
 
 /* hover dos widgets */
